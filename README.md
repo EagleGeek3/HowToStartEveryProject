@@ -22,7 +22,7 @@ To start a project in Eclipse you import it from Git. From Eclipse import the pr
 
 Next, you'll paste the URI from the provious step into the import dialog as shown below:
 
-<img src="https://www.dropbox.com/s/zgagb305rlwxkfu/SourceGitRepository.png?dl=1" width="525" height="671" />
+<img src="https://www.dropbox.com/s/ud5ttr4trgv8h6l/SourceGitRepository.png?dl=1" width="525" height="671" />
 
 Follow the following sequence to import the project from Git.
 
