@@ -4,27 +4,39 @@
 
 This document will show you how to start every exercise or lab in this course.
 
-###Copy the Template Project
+###Fork the Project on GitHub
 
-To start a project you download the Cs105ProjectTemplate from the Moodle web site. This will be downloaded as a compressed (zip) file. **Do not uncompress (unzip) the file**. From Eclipse import the project in to your workspace by selecting the **File -> Import -> General -> Existing Projects into Workspace** and press next. The import dialog appears as shown below:
+Before starting any project you must first fork it from GitHub. Go to the class [GitHub Repository](https://github.com/sbcc-cs105-spring2016) and find the repository for the assignment you are starting. There should also be a link to it on the Moodle page.
 
-<img src="https://www.dropbox.com/s/ihh8wrc865l1rxj/importarchive.png?dl=1" width="525" height="671" />
+Follow the following sequence to fork the project and copy the URL for your forked version of the project to import into Eclipse:
 
-Follow the following sequence to import the template.
+ <img src="https://www.dropbox.com/s/uezrecne119tlja/fork_assignment.png?dl=1" width="1002" height="289" />
+ 
+1. Click the **Fork** button to copy the assignment to your own personal repository.
+2. When asked "Where should we fork this repository?" select your profile.
+3. Click on the icon to the right to copy the link to your fork to the clipboard. This link will be used in the next step.
 
-1. Choose the button "Select archive file:" to import our compressed project.
-2. Use the browse to navigate to the compressed file and select it.
-3. Press "Finish"
+###Import Project from GitHub into Eclipse
 
-###Rename the Template Project
+To start a project in Eclipse you import it from Git. From Eclipse import the project in to your workspace by selecting the **File -> Import -> Git -> Projects from Git** and press "Next". Then click **Clone URI**. 
 
-Once you have imported the project reaname it to your project name. Select the project and choose **Refactor -> Rename**. You can also bring up the context sensitive menu and it is on there under the Refactor submenu. Change the name to the proper form which is in the following format {FLname}_ProjectName_XYY. For example, if your name is Hayao Miyazaki in my Fall 2025 class and you are working on a project named Grade then the project name would be
+Next, you'll paste the URI from the provious step into the import dialog as shown below:
 
-HMiyazaki_Grade_F25
+<img src="https://www.dropbox.com/s/zgagb305rlwxkfu/SourceGitRepository.tiff?dl=1" width="525" height="671" />
 
-This consists of the first initial, last name, underscore, project name exactly as specified, underscore, first initial of the term (F - fall, S - spring), two year identifier assuming the twenty-first century.
+Follow the following sequence to import the project from Git.
 
-_All projects must use this naming convention. No credit will be awarded to those who do not use this convention and no investigation will be performed. I'm sorry to be so strict but it's the only way for me to stay on top of the huge numbers of items I have to grade._
+1. Paste the URI from the previous step into "URI.
+2. Press "Next", and 
+3. Press "Next" again
+4. Press "Next" again
+5. Press "Next" again
+
+You should now be on the "Import Projects" dialog. It looks like the following:
+
+<img src="https://www.dropbox.com/s/6i8nkv7z2ca7mwj/ImportProjects.png?dl=1" width="525" height="671" />
+
+Press "Finish", and that's it. 
 
 ###Add the Main Class
 
@@ -41,8 +53,8 @@ Configure the class by following these steps:
 
 ###All Done
 
-You now have a project that is ready to be worked on. Using our student Mr. Miyazaki as an example, this is what we see if we look at the package explorer.
+You now have a project that is ready to be worked on.
 
-<img src="https://www.dropbox.com/s/dbsaql728o1d9lk/MiyazakiPackageExplorer.png?dl=1" width="244" height="103" />
+<img src="https://www.dropbox.com/s/tbzdmpjob7hjtj4/EX01-HelloWorld.png?dl=1" width="286" height="189" />
 
 You're ready! Now on to the fun!
