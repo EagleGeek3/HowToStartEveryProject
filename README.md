@@ -1,10 +1,10 @@
 # How to Start Every Project in this Class
 
-###Purpose of This Document
+### Purpose of This Document
 
 This document will show you how to start every exercise or lab in this course.
 
-###Fork the Project on GitHub
+### Fork the Project on GitHub
 
 Before starting any project you must first fork it from GitHub. Go to the class [GitHub Repository](https://github.com/sbcc-cs105-spring2016) and find the repository for the assignment you are starting. There should also be a link to it on the Moodle page.
 
@@ -16,7 +16,7 @@ Follow the following sequence to fork the project and copy the URL for your fork
 2. When asked "Where should we fork this repository?" select your profile.
 3. Click on the icon to the right to copy the link to your fork to the clipboard. This link will be used in the next step.
 
-###Import Project from GitHub into Eclipse
+### Import Project from GitHub into Eclipse
 
 To start a project in Eclipse you import it from Git. From Eclipse import the project in to your workspace by selecting the **File -> Import -> Git -> Projects from Git** and press "Next". Then click **Clone URI**. 
 
@@ -38,7 +38,7 @@ You should now be on the "Import Projects" dialog. It looks like the following:
 
 Press "Finish", and that's it. 
 
-###Add the Main Class
+### Add the Main Class
 
 Then once the project is renamed open the project and add a Main.java source file by choosing **File -> New -> Class**. This is where you will write your test code for the objects you are creating to solve the programming problem. The class wizard looks like the following:
 
@@ -51,7 +51,7 @@ Configure the class by following these steps:
 3. Check the box to generate a main method. This is where our program will start when we go to run it.
 4. Click finish to create the source file.
 
-###All Done
+### All Done
 
 You now have a project that is ready to be worked on.
 
