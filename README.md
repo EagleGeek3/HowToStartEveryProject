@@ -6,7 +6,7 @@ This document will show you how to start every exercise or lab in this course.
 
 ### Fork the Project on GitHub
 
-Before starting any project you must first fork it from GitHub. Go to the class [GitHub Repository](https://github.com/sbcc-cs105-spring2016) and find the repository for the assignment you are starting. There should also be a link to it on the Moodle page.
+Before starting any project you must first fork it from GitHub. Go to the class [GitHub Repository](https://github.com/sbcc-cs140-spring2018) and find the repository for the assignment you are starting. There should also be a link to it on the Moodle page.
 
 Follow the following sequence to fork the project and copy the URL for your forked version of the project to import into Eclipse:
 
